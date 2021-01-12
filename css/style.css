@@ -64,3 +64,67 @@ div.transbox p {
   margin-left: 25px;
   
 }
+
+.carousel-item img{
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  margin: auto; 
+  display: block;
+  }
+
+
+  .form-check-inline {
+
+  padding: 10px;
+  margin-left: 25px;
+  
+}
+
+.offset {
+
+  padding: 10px;
+  margin-left: 25px;
+  
+  
+}
+
+.notice_legal  { 
+    border-bottom: $white solid 2px; 
+    color:  white
+    
+} 
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: rgb(10, 10, 10);
+}
+  
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .carousel-caption h3 {
+  font-family:    Garamond;
+  font-size:      3em;
+  color:          red !important;
+  }
+
+
+.card-title h2 {
+
+    text-align: center;
+
+}
+
