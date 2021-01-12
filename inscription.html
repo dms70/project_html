@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ASSOCIATION</title>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header class="row">
+        <div class="logo col-3">
+        <img src="image/logo_new.jpg" width="236" height="88" alt="A.S. Bourg La Reine" />
+        </div>
+        <div class="col-7"></div>
+        <div class="badge col-2">
+        <p class="right_then_center " style="text-align: center;"> 
+                  <a href="https://www.facebook.com/" target="_self"><img src="image/facebook.png" 
+                  alt="" width="40" height="40" /></a> 
+                  <a class="btn-defaut " href="https://www.twitter.com/" target="_blank" 
+                  rel="noopener noreferrer"> <img src="image/twitter.png" 
+                  alt="" width="40" height="40" /></a>
+                   </p>
+        </div>
+      </header> 
+
+      <nav class="row navbar navbar-expand-lg navbar-dark bg-primary" >
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+        </button>
+
+        <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav nav-tabs nav-pills nav-fill nav">
+
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">Bienvenue</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="inscription.html">Inscription</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="equipement.html">Equipement</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="evenements.html">Evenements</a>
+              </li>
+            </ul>
+         </div>
+      </nav>    
+
+      <section  class="row">
+        <div class="col">
+          <div class="jumbotron vertical-center justify-content-center">
+            <h1>Formulaire inscription au club</h1>
+        </div>
+      </section>
+
+
+      <section>
+        <form class="row"  action="inscription.php" method="post">
+          
+             
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Mister" >
+                <label class="form-check-label" for="inlineRadio1">Monsieur</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Madam">
+                <label class="form-check-label" for="inlineRadio2">Madame</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Misse" >
+                <label class="form-check-label" for="inlineRadio3">Mademoiselle</label>
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-text col-2">Nom</span>
+                <input type="text" aria-label="Name" class="form-control col-5" required> 
+              </div>
+              <div class="input-group">
+                <span class="input-group-text col-2">Prénom</span>
+                <input type="text" aria-label="FirstName" class="form-control form-control-success col-5" required>
+              </div>
+              <div class="input-group">
+                <span class="input-group-text col-2">Courriel</span>
+                <input type="text" class="form-control col-2" placeholder="Username" aria-label="Username" required>
+              <span class="input-group-text col-1">@</span>
+              <input type="text" class="form-control col-2" placeholder="Server" aria-label="Server" required>
+              </div>  
+              <div class="input-group">
+                <span class="input-group-text col-2">Date de naissance</span>
+                <input class="form-control col-2" type="date" value="" id="example-date-input" required>
+              </div>
+              <div class="input-group">
+                <span class="input-group-text ">Date de naissance</span>
+                  <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
+                    <input placeholder="Select date" type="text" id="example" class="form-control">
+                    <i class="fas fa-calendar input-prefix" tabindex=0></i>
+                  </div>
+              </div>
+
+              <div class="input-group col-7">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupFileAddon01">Envoyer</span>
+                </div>
+              <div class="custom-file ">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+              </div>
+ 
+
+            <script>
+              document.querySelector('.custom-file-input').addEventListener('change', function (e) {
+                var name = document.getElementById("inputGroupFile01").files[0].name;
+                var nextSibling = e.target.nextElementSibling
+                nextSibling.innerText = name
+              })
+            </script>
+
+            <div class="text-center">
+            <div class="offset">
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+            </div>
+
+        
+        </form>
+      </section>
+    
+  
+      <footer class="row">
+        <div class="col-md-4 col-sm-12">
+          <span class="notice-legale nw">
+            &copy; 2021 MARCAIS.ONLINE</span>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <span class="notice-legale nw">
+            Réalisation : <a href="https://www.marcais.online" 
+            title="Création de site internet dans le 92" class="notice-legale  text-white" 
+            target="_blank">Marcais Agence Web</a>
+          </span>
+        </div>
+      
+        <div class="col-md-4 col-sm-12">
+          <span class="notice-legale nw text-white">
+           <a href="" class="notice-legale text-white">Cookies</a>&#8226;
+           <a href="" class="notice-legale text-white">Plan du site</a>&#8226;
+           <a href="" class="notice-legale text-white">Mentions légales</a>
+          </span>
+        </div>
+
+      </footer>
+  
+    </div>
+  </body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+</html>
+
+
+
