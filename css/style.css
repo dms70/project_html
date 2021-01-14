@@ -1,51 +1,52 @@
 .row {
-  border: 1px solid #6eabf1;
-  padding: 1px;}
+  border: 1px solid #80a3e3;
+  padding: 1px;
+}
 
 .col {
   padding: 1rem;
-  border: 1px solid #6eabf1;
+  border: 1px solid #80a3e3;
 }
 
-header  {
+header {
   height: 100px;
   background-color: #6eabf1;
 }
-
-.jumbotron {
-
-  height: 100px;
-  text-align: center
-  
-}
-
-.vertical-center {
-  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 5vh; /* These two lines are counted as one :-)       */
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-
 
 footer {
   height: 50px;
   background-color: #6eabf1;
 }
 
+footer {
+  height: 50px;
+  background-color: #6eabf1;
+}
+
+.jumbotron {
+  height: 100px;
+  text-align: center;
+}
+
+.vertical-center {
+  min-height: 80%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 5vh;
+  /* These two lines are counted as one :-)       */
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 p {
   text-align: center;
 }
 
-
-
 div.background {
-  background: url(cible.png) ;
-  
+  background: url(cible.png);
 }
 
 div.transbox {
-
   background-color: #6eabf1;
   opacity: 0.8;
 }
@@ -56,75 +57,62 @@ div.transbox p {
   color: #000000;
 }
 
-
-
 .input-group {
-
   padding: 10px;
   margin-left: 25px;
-  
 }
 
-.carousel-item img{
+.carousel-item img {
   width: auto;
   height: 500px;
   max-height: 500px;
-  margin: auto; 
+  margin: auto;
   display: block;
-  }
+}
 
-
-  .form-check-inline {
-
+.form-check-inline {
   padding: 10px;
   margin-left: 25px;
-  
 }
 
 .offset {
-
   padding: 10px;
   margin-left: 25px;
-  
-  
 }
 
-.notice_legal  { 
-    border-bottom: $white solid 2px; 
-    color:  white
-    
-} 
-
-a:hover /* Apparence au survol des liens */
-{
-   text-decoration: underline;
-   color: rgb(10, 10, 10);
+.notice_legal {
+  border-bottom: #ffffff solid 2px;
+  color: #ffffff;
 }
-  
-.map-container-5{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  }
-  .map-container-5 iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-  }
 
-  .carousel-caption h3 {
-  font-family:    Garamond;
-  font-size:      3em;
-  color:          red !important;
-  }
+a:hover {
+  text-decoration: underline;
+  color: #0a0a0a;
+}
 
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.carousel-caption h3 {
+  font-family: Garamond;
+  font-size: 3em;
+  color: red !important;
+}
 
 .card-title h2 {
-
-    text-align: center;
-
+  text-align: center;
 }
 
+/*# sourceMappingURL=style.css.map */

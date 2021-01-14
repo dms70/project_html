@@ -1,0 +1,140 @@
+
+$principal_color : #6eabf1;
+$border_color : #80a3e3;
+
+.row {
+  border: 1px solid $border_color;
+  padding: 1px;}
+
+.col {
+  padding: 1rem;
+  border: 1px solid $border_color;
+}
+
+header  {
+  height: 100px;
+  background-color: $principal_color;
+}
+
+footer {
+  height: 50px;
+  background-color: $principal_color;
+}
+
+
+footer {
+  height: 50px;
+  background-color: $principal_color;
+}
+
+
+.jumbotron {
+
+  height: 100px;
+  text-align: center
+  
+}
+
+.vertical-center {
+  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 5vh; /* These two lines are counted as one :-)       */
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+div.background {
+  background: url(cible.png) ;
+  
+}
+
+div.transbox {
+
+  background-color: $principal_color;
+  opacity: 0.8;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+.input-group {
+
+  padding: 10px;
+  margin-left: 25px;
+  
+}
+
+.carousel-item img{
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  margin: auto; 
+  display: block;
+  }
+
+
+  .form-check-inline {
+
+  padding: 10px;
+  margin-left: 25px;
+  
+}
+
+.offset {
+
+  padding: 10px;
+  margin-left: 25px;
+  
+  
+}
+
+.notice_legal  { 
+    border-bottom: #ffffff solid 2px; 
+    color:  #ffffff
+    
+} 
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: rgb(10, 10, 10);
+}
+  
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .carousel-caption h3 {
+  font-family:    Garamond;
+  font-size:      3em;
+  color:          red !important;
+  }
+
+
+.card-title h2 {
+
+    text-align: center;
+
+}
+
+
+
