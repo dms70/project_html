@@ -1,6 +1,7 @@
 
 $principal_color : #6eabf1;
-$border_color : #80a3e3;
+$border_color : #8eb1f1;
+
 
 .row {
   border: 1px solid $border_color;
@@ -15,12 +16,6 @@ header  {
   height: 100px;
   background-color: $principal_color;
 }
-
-footer {
-  height: 50px;
-  background-color: $principal_color;
-}
-
 
 footer {
   height: 50px;
@@ -137,4 +132,13 @@ a:hover /* Apparence au survol des liens */
 }
 
 
+.nav-link {
 
+
+font-size: 1.5rem;
+
+
+}
+
+
+  
